@@ -1,0 +1,119 @@
+.wrapper {
+    margin: 0 auto;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header {
+    background-color: lightskyblue;
+    color: white;
+    width: 900px;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 150px;
+}
+.cities {
+    width: 400px;
+    height: inherit;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+
+}
+.topbox {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    margin-left: 185px;
+}
+.showtemp {
+    width: 210px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.showtemp > p {
+    margin-right: 15px;
+}
+.showtemp > select {
+    height: 30px;
+}
+.weather {
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    margin-top: 20px;
+    width: 800px;
+    height: 330px;
+    margin-left: 185px;
+}
+.days {
+    width: 180px;
+    height: 300px;
+    background-color: gainsboro;
+    text-align: center;
+}
+.days > img {
+    border-radius: 50%;
+}
+.tempnumbers {
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+    height: 40px;
+}
+.tempnumbers > span {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.high {
+    color: red;
+    font-size: 16pt;
+}
+.low {
+    color: blue;
+    font-size: 16pt;
+}
+.high::after, .low::after {
+    content: "°";
+}
+.alertbox {
+    position: fixed;
+    width: 800px;
+    height: 120px;
+    border: 1px solid black;
+
+    background-color: white;
+    margin-left: 185px;
+}
+.cookiebox {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    width: 780px;
+    height: 95px;
+}
+.cookiebox > img {
+    height: 60px;
+    margin-left: 30px;
+}
+.alertbox > h3 {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 180px;
+    text-align: inherit;
+}
+.cookiebox > button {
+    background-color: lightskyblue;
+    color: white;
+    box-shadow: 5px 5px 5px black;
+    width: 80px;
+    height: 30px;
+    border: 2px solid black;
+    margin-right: 20px;
+    cursor: pointer;
+}
